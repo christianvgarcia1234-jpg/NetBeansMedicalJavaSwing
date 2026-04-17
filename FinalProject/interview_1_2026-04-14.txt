@@ -1,0 +1,36 @@
+Patient ID: 1
+Patient Name: null null
+Interview Date: 2026-04-14T10:54:11.623649800
+--------------------------------------------------
+Q: Do you smoke?
+A: NO
+Q: Do you drink alcohol?
+A: NO
+Q: Do you have any allergies?
+A: NO
+Q: Do you have any chronic conditions?
+A: NO
+Patient ID: 1
+Patient Name: null null
+Interview Date: 2026-04-14T10:57:56.068369800
+--------------------------------------------------
+Q: Do you smoke?
+A: YES
+Q: Do you drink alcohol?
+A: YES
+Q: Do you have any allergies?
+A: YES
+Q: Do you have any chronic conditions?
+A: NO
+Patient ID: 1
+Patient Name: null null
+Interview Date: 2026-04-14T11:38:58.219717100
+--------------------------------------------------
+Q: Do you smoke?
+A: NO
+Q: Do you drink alcohol?
+A: NO
+Q: Do you have any allergies?
+A: NO
+Q: Do you have any chronic conditions?
+A: NO
