@@ -45,7 +45,7 @@ public class GeneralMedicalHistoryForm extends javax.swing.JFrame {
         btnEdit = new javax.swing.JButton();
         btnSave = new javax.swing.JButton();
         btnDelete = new javax.swing.JButton();
-        btnInterview = new javax.swing.JButton();   // ⭐ ADDED
+        btnInterview = new javax.swing.JButton();  
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("General Medical History");
@@ -68,8 +68,8 @@ public class GeneralMedicalHistoryForm extends javax.swing.JFrame {
         btnDelete.setText("Delete");
         btnDelete.addActionListener(evt -> deleteRecord());
 
-        btnInterview.setText("Start Interview");     // ⭐ ADDED
-        btnInterview.addActionListener(evt -> startInterview()); // ⭐ ADDED
+        btnInterview.setText("Start Interview");     
+        btnInterview.addActionListener(evt -> startInterview()); 
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -100,7 +100,7 @@ public class GeneralMedicalHistoryForm extends javax.swing.JFrame {
                 .addGap(10)
                 .addComponent(btnDelete)
                 .addGap(10)
-                .addComponent(btnInterview))   // ⭐ ADDED
+                .addComponent(btnInterview))  
         );
 
         layout.setVerticalGroup(
@@ -127,7 +127,7 @@ public class GeneralMedicalHistoryForm extends javax.swing.JFrame {
                     .addComponent(btnEdit)
                     .addComponent(btnSave)
                     .addComponent(btnDelete)
-                    .addComponent(btnInterview))   // ⭐ ADDED
+                    .addComponent(btnInterview))   
                 .addGap(20)
         );
 
@@ -218,7 +218,7 @@ public class GeneralMedicalHistoryForm extends javax.swing.JFrame {
         }
     }
 
-    // ⭐ NEW METHOD — Start Interview
+    // Start Interview
     private void startInterview() {
 
         if (currentPatientID <= 0) {
@@ -257,7 +257,7 @@ public class GeneralMedicalHistoryForm extends javax.swing.JFrame {
     private javax.swing.JButton btnEdit;
     private javax.swing.JButton btnSave;
     private javax.swing.JButton btnDelete;
-    private javax.swing.JButton btnInterview;   // ⭐ ADDED
+    private javax.swing.JButton btnInterview;   
 
     private javax.swing.JLabel lblBloodType;
     private javax.swing.JLabel lblAllergies;
