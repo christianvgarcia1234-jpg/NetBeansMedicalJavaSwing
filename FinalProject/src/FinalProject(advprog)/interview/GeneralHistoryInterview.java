@@ -16,7 +16,7 @@ public class GeneralHistoryInterview {
     public GeneralHistoryInterview(Patient patient) {
         this.patient = patient;
         this.history = new GeneralMedicalHistory();
-        this.history.setPatientID(patient.getPatientID());   // ✅ REQUIRED for FK
+        this.history.setPatientID(patient.getPatientID());   
         this.logger = new InterviewLogger(patient);
         buildTree();
     }
@@ -94,7 +94,7 @@ public class GeneralHistoryInterview {
 
         // Save to DB
         try {
-            GeneralHistoryDBUtil.insertHistory(history);   // ✅ Works with your DBUtil
+            GeneralHistoryDBUtil.insertHistory(history);   
         } catch (Exception e) {
             JOptionPane.showMessageDialog(parent, "Error saving interview: " + e.getMessage());
             e.printStackTrace();
